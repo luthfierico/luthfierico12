@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav li{
+    padding: 5px;
+}
+
+.data-list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50%;
+}
+
+.fa-angle-down{
+    transform: rotate(0deg);
+    transition: 300ms;
+}
+.wisata:hover .fa-angle-down{
+    transform: rotate(-90deg);
+}
+
+.data-list a{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.data-list li{
+display: inline-block;
+margin-left: 30px;
+}
+
+.logo {
+    margin-left: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.list {
+    display: none;
+    background-color: black;
+    position: absolute;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.list li{
+    display: block;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.wisata:hover .list{
+display: block;
+}
+
+.data-list a{
+    text-decoration: none;
+}
+
+
+.nav li:hover {
+    background-color: #2089f3;
+}
+
+.logo img{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+/* nav selesai */
+
+.header {
+display: flex;
+margin-bottom: 100px;
+}
+
+.des-header {
+    width: 45%;
+    margin: auto;
+    padding: 5px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.des-header h1{
+    font-weight: 800;
+    font-size: 6rem;
+    width: 50%;
+    color: #2089f3;
+}
+
+.gambar{
+width: 40%;
+height: 100vh;
+}
+
+.gambar img{
+    height: 100%;
+    width: 100%;
+}
+
+.sosmed {
+    position: fixed;
+    margin-top: 40vh;
+    margin-left: 30px;
+
+}
+.medsos li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.medsos .fa-brands{
+    font-size: 30px;
+    color: #2089f3;
+}
+ .medsos .fa-tiktok:hover{
+    color: black;
+ }
+ .medsos .fa-instagram:hover{
+    color: blue;
+ }
+ .medsos .fa-whatsapp:hover{
+    color: green;
+ }
+
+
+/* bg-card */
+.bg-card {
+    width: 90%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: auto;
+}
+
+.card {
+    width: 200px;
+    height: 310px;
+    margin: auto;
+    margin-left: 20px;
+    margin-bottom: 70px;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px gray;
+    transition: 300ms;
+}
+
+.gambar-card {
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.gambar-card img{
+transition: 1s;
+    height: 100%;
+    width: 100%;
+}
+
+.des-card {
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+.bg-card a{
+    text-decoration: none;
+}
+
+.des-card h3{
+    color: #2089f3;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.des-card p{
+color: #333;
+line-height: 20px;
+}
+
+.card:hover img{
+    transform: scale(1.5);
+    transition: 2s;
+}
+/* footer========== */
+.bg-footer {
+    height: 10vh;
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 15vh;
+}
